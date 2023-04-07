@@ -1,0 +1,16 @@
+io/flutter/plugins/camera/BuildConfig.java
+ io.flutter.plugins.camera.BuildConfig
+io/flutter/plugins/camera/CameraPlugin.java
+ io.flutter.plugins.camera.CameraPlugin
+ io.flutter.plugins.camera.CameraPlugin$1
+ io.flutter.plugins.camera.CameraPlugin$Cam
+ io.flutter.plugins.camera.CameraPlugin$Cam$1
+ io.flutter.plugins.camera.CameraPlugin$Cam$2
+ io.flutter.plugins.camera.CameraPlugin$Cam$3
+ io.flutter.plugins.camera.CameraPlugin$Cam$3$1
+ io.flutter.plugins.camera.CameraPlugin$Cam$4
+ io.flutter.plugins.camera.CameraPlugin$Cam$5
+ io.flutter.plugins.camera.CameraPlugin$Cam$6
+ io.flutter.plugins.camera.CameraPlugin$Cam$7
+ io.flutter.plugins.camera.CameraPlugin$CameraRequestPermissionsListener
+ io.flutter.plugins.camera.CameraPlugin$CompareSizesByArea

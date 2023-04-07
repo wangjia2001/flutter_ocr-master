@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="waynelu.flutterocr"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:8:5-66
+16-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:8:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+17-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+18-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+19    <uses-permission android:name="android.permission.CAMERA" />
+19-->[:camera] E:\flutter_ocr-master\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+19-->[:camera] E:\flutter_ocr-master\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\LENOVO\.gradle\wrapper\dists\caches\transforms-2\files-2.1\3a2c11f3e29d2ce5868ab8ca7065b2ed\jetified-exoplayer-core-2.8.0\AndroidManifest.xml:24:5-79
+20-->[com.google.android.exoplayer:exoplayer-core:2.8.0] C:\Users\LENOVO\.gradle\wrapper\dists\caches\transforms-2\files-2.1\3a2c11f3e29d2ce5868ab8ca7065b2ed\jetified-exoplayer-core-2.8.0\AndroidManifest.xml:24:22-76
+21    <!--
+22 io.flutter.app.FlutterApplication is an android.app.Application that
+23         calls FlutterMain.startInitialization(this); in its onCreate method.
+24         In most cases you can leave this as-is, but you if you want to provide
+25         additional functionality it is fine to subclass or reimplement
+26         FlutterApplication and put your custom class here.
+27    -->
+28    <application
+28-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:15:5-41:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:16:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\LENOVO\.gradle\wrapper\dists\caches\transforms-2\files-2.1\2f6d088e208b7e69136a4b618d829804\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:18:9-43
+33        android:label="ocr报价系统"
+33-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:17:9-32
+34        android:testOnly="true" >
+35        <activity
+35-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:19:9-40:20
+36            android:name="waynelu.flutterocr.MainActivity"
+36-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:20:13-41
+37            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+37-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:23:13-137
+38            android:hardwareAccelerated="true"
+38-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:24:13-47
+39            android:launchMode="singleTop"
+39-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:21:13-43
+40            android:theme="@style/LaunchTheme"
+40-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:22:13-47
+41            android:windowSoftInputMode="adjustResize" >
+41-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:25:13-55
+42
+43            <!--
+44                 This keeps the window background of the activity showing
+45                 until Flutter renders its first frame. It can be removed if
+46                 there is no splash screen (such as the default splash screen
+47                 defined in @style/LaunchTheme).
+48            -->
+49            <!-- <meta-data -->
+50            <!-- android:name="flutterEmbedding" -->
+51            <!-- android:value="2" /> -->
+52            <meta-data
+52-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:33:13-35:40
+53                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+53-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:34:17-82
+54                android:value="true" />
+54-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:35:17-37
+55
+56            <intent-filter>
+56-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:36:13-39:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:37:17-68
+57-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:37:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:38:17-76
+59-->E:\flutter_ocr-master\android\app\src\main\AndroidManifest.xml:38:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <provider
+63-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+64            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+64-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+65            android:authorities="waynelu.flutterocr.flutter.image_provider"
+65-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+66            android:exported="false"
+66-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+67            android:grantUriPermissions="true" >
+67-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+68            <meta-data
+68-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+69                android:name="android.support.FILE_PROVIDER_PATHS"
+69-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+70                android:resource="@xml/flutter_image_picker_file_paths" />
+70-->[:image_picker] E:\flutter_ocr-master\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+71        </provider>
+72    </application>
+73
+74</manifest>
